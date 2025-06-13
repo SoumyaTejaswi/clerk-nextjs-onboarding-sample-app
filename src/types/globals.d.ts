@@ -1,12 +1,12 @@
-export { };
+export {}
 
 declare global {
   interface CustomJwtSessionClaims {
     metadata: {
-      onboardingComplete?: boolean;
-      applicationName?: string;
-      applicationType?: string;
-    };
-    firstName?: string;
+      onboardingComplete?: boolean
+      applicationName?: string
+      applicationType?: string
+    }
+    firstName?: string
   }
 }
